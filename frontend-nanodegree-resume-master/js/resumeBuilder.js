@@ -2,11 +2,11 @@ var bio = {
 	"name": "Kevin N. Glick",
 	"role": "Front-End Web Developer",
 	"contacts": {
-		"skypePhone": "330-460-4389",
-		"mobile": "+7(919)773-77-81",
-		"email": "kevin.n.glick@gmail.com",
-		"github": "https://github.com/Caoimhin89",
-		"location": "Moscow, Russia"
+		"skypePhone": "<a href='tel:3304604389'>330-460-4389</a>",
+		"mobile": "<a href='tel:89197737781'>+7(919)773-77-81</a>",
+		"email": "<a href='mailto:kevin.n.glick@gmail.com'>kevin.n.glick@gmail.com</a>",
+		"github": "<a href='https://github.com/Caoimhin89'>Caoimhin89</a>",
+		"location": "<a href='#'>Moscow, Russia</a>"
 	},
 	"welcomeMessage": "This is my CV.",
 	"skills": ["HTML5", "CSS3", "JavaScript", "Fluent Russian", "Translation & Localization", "Economics"],
@@ -146,7 +146,6 @@ function displayBio() {
 		var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 		$("#topContacts").append(formattedLocation);
 }
-displayBio();
 
 function displayWork() {
 	for (job in work.jobs) {
@@ -160,36 +159,6 @@ function displayWork() {
 		$(".work-entry:last").append(formattedEmployerTitleLocDateDescrip);
 	}
 }
-displayWork();
-
-/*$(document).click(function(loc) {
-	var x = loc.pageX;
-	var y = loc.pageY;
-	logClicks(x, y);
-});*/
-
-/*function locationFinder() {
-	var locations = [];
-	locations.push(bio.contacts.location);
-	for (var school in education.schools) {
-		locations.push(education.schools[school].location);
-	}
-	for (var job in work.jobs) {
-		locations.push(work.jobs[job].location);
-	}
-	return locations;
-}
-*/
-
-function inName(name) {
-	name = name.trim().split(" ");
-	console.log(name);
-	name[2] = name[2].toUpperCase();
-	name[1] = name[1].toUpperCase();
-	name[0] = name[0].slice(0, 1).toUpperCase() + name[0].slice(1).toLowerCase();
-	return name[0]+" "+name[1]+" "+name[2];
-}
-$("#main").append(internationalizeButton);
 
 projects.display = function() {
 	for (project in projects.projects) {
@@ -209,7 +178,6 @@ projects.display = function() {
 		}
 	}
 }
-projects.display();
 
 education.display = function() {
 	for (school in education.schools) {
@@ -239,4 +207,20 @@ education.display = function() {
 		$(".education-entry:last").append(formattedURL);
 	}
 }
+
+displayBio();
+displayWork();
+projects.display();
 education.display();
+
+$("#mapDiv").append(googleMap);
+
+function inName(name) {
+	name = name.trim().split(" ");
+	console.log(name);
+	name[2] = name[2].toUpperCase();
+	name[1] = name[1].toUpperCase();
+	name[0] = name[0].slice(0, 1).toUpperCase() + name[0].slice(1).toLowerCase();
+	return name[0]+" "+name[1]+" "+name[2];
+}
+$("#main").append(internationalizeButton);
