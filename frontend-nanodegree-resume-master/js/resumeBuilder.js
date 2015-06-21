@@ -49,19 +49,19 @@ var projects = {
 	},
 	{
 		"title": "Classic Arcade Game",
-		"dates": "Unknown",
+		"dates": "TBA",
 		"description": "N/A",
 		"images": []
 	},
 	{
 		"title": "Website Optimization",
-		"dates": "Unknown",
+		"dates": "TBA",
 		"description": "N/A",
 		"images": []
 	},
 	{
 		"title": "Interactive City Map",
-		"dates": "Unknown",
+		"dates": "TBA",
 		"description": "N/A",
 		"images": []
 	}
