@@ -43,7 +43,7 @@ var projects = {
 	},
 	{
 		"title": "Curriculum Vitae",
-		"dates": "TBA",
+		"dates": "June 21, 2015",
 		"description": "For this project I used JavaScript to populate a pre-made HTML resume template with my own data.",
 		"images": []
 	},
