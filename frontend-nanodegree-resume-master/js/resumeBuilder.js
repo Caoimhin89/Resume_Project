@@ -6,10 +6,11 @@ var bio = {
 		"mobile": "<a href='tel:89197737781'>+7(919)773-77-81</a>",
 		"email": "<a href='mailto:kevin.n.glick@gmail.com'>kevin.n.glick@gmail.com</a>",
 		"github": "<a href='https://github.com/Caoimhin89'>Caoimhin89</a>",
+		"linkedIn": "<a href='https://www.linkedin.com/pub/kevin-glick/56/119/309'>View Profile</a>",
 		"location": "<a href='#'>Moscow, Russia</a>"
 	},
-	"welcomeMessage": "This is my CV.",
-	"skills": ["HTML5", "CSS3", "JavaScript", "Fluent Russian", "Translation & Localization", "Economics"],
+	"welcomeMessage": "",
+	"skills": ["HTML5 / CSS3", "JavaScript", "Fluent Russian", "Translation & Localization", "Economics", "ESL Teaching", "Writing & Editing"],
 	"bioPic": "imgages/me.png"
 }
 
@@ -20,16 +21,14 @@ var work = {
 		"title": "English Teacher",
 		"location": "Moscow, Russia",
 		"dates": "October 2014 - Present",
-		"description": "As an English teacher at Denis' School, I taught classes to a variety of corporate clients right in their offices. I had a mixture of individual students as well as small and medium-sized groups. I prepared daily lesson plans, organized teaching materials, kept careful academic and attendence records, designed and administered tests, and gave regular feedback to the students. The lessons were customized to be relevant and engaging for the particular needs of each company. The companies for whom I taught classes includes Agilent Technologies, Syngenta, Intel, LukOil, Yandex, and Johnson&Johnson.",
-		"url": "http://www.dschool.ru/"
+		"description": "As an English teacher at Denis' School, I taught classes to a variety of corporate clients right in their offices. I had a mixture of individual students as well as small and medium-sized groups. I prepared daily lesson plans, organized teaching materials, kept careful academic and attendence records, designed and administered tests, and gave regular feedback to the students. The lessons were customized to be relevant and engaging for the particular needs of each company. The companies for whom I taught classes includes Agilent Technologies, Syngenta, Intel, LukOil, Yandex, and Johnson&Johnson."
 	},
 	{
-		"employer": "ZeroChaos, LLC.",
+		"employer": "ZeroChaos",
 		"title": "Ads Quality Rater (Russian Language)",
 		"location": "Orlando, Florida",
 		"dates": "2014 - 2015",
-		"description": "As an Ads Quality Rater, I primarily reviewed web adverts that appear at the top of Google search results pages and compared them with the webpages which they link to, in order to ensure the honesty of the advertiser and security of to users' computers when clicking on those links, as well as the advert's and landing page's relevance to the user's search query. I also classified various webpages by content and interpretted the user's likely intent in navigating to a given webpage. I reviewed both English and Russian-language content.",
-		"url": "http://www.careerbuilder.com/jobseeker/jobs/jobdetails.aspx?2015=true&job_did=J8Q1WZ6JZ50JQGMNMH7&showNewJDP=yes&IPath=CJR"
+		"description": "As an Ads Quality Rater, I reviewed Russian and English language web content according to various criteria. Primarily, I reviewed adverts that appear at the top of Google search results pages and compared them with the webpages to which they link in order to confirm the honesty of the advertiser as well as ensure the security of users' computers when visiting the landing pages. I also checked the relevance of the advert and landing page to the user's search query. Additionally, I was sometimes tasked with classifying various webpages by their content and interpretting the user's likely intent in navigating to a given webpage."
 	}
 	]
 }
@@ -116,10 +115,12 @@ function displayBio() {
 	var formattedRole = HTMLheaderRole.replace("%data%", myRole);
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
-	var formattedWelcome = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
-	$("#header").append(formattedWelcome);
+	if (bio.welcomeMessage.length > 0) {
+		var formattedWelcome = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+		$("#header").append(formattedWelcome);
+	}
 	var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
-	$("#header").prepend(formattedPic);
+	$("#header").append(formattedPic);
 
 	if (bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
@@ -135,16 +136,28 @@ function displayBio() {
 		$("#skills").append(formattedSkill);
 		formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
 		$("#skills").append(formattedSkill);
+		formattedSkill = HTMLskills.replace("%data%", bio.skills[6]);
+		$("#skills").append(formattedSkill);
 	}
 
 		var formattedskypePhone = HTMLskypePhone.replace("%data%", bio.contacts.skypePhone);
 		$("#topContacts").append(formattedskypePhone);
+		$("#footerContacts").append(formattedskypePhone);
+		var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+		$("#topContacts").append(formattedMobile);
+		$("#footerContacts").append(formattedMobile);
 		var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 		$("#topContacts").append(formattedEmail);
+		$("#footerContacts").append(formattedEmail);
 		var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 		$("#topContacts").append(formattedGithub);
+		$("#footerContacts").append(formattedGithub);
+		var formattedLinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedIn);
+		$("#topContacts").append(formattedLinkedIn);
+		$("#footerContacts").append(formattedLinkedIn);
 		var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 		$("#topContacts").append(formattedLocation);
+		$("footerContacts").append(formattedLocation);
 }
 
 function displayWork() {
