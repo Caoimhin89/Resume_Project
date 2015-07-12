@@ -6,7 +6,7 @@ var bio = {
 		"mobile": "<a href='tel:89197737781'>+7(919)773-77-81</a>",
 		"email": "<a href='mailto:kevin.n.glick@gmail.com'>kevin.n.glick@gmail.com</a>",
 		"github": "<a href='https://github.com/Caoimhin89'>Caoimhin89</a>",
-		"linkedIn": "<a href='https://www.linkedin.com/pub/kevin-glick/56/119/309'>View Profile</a>",
+		"linkedIn": "<a href='https://www.linkedin.com/in/kevinglick89'>View Profile</a>",
 		"location": "<a href='#'>Moscow, Russia</a>"
 	},
 	"welcomeMessage": "",
