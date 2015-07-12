@@ -49,8 +49,8 @@ var projects = {
 	},
 	{
 		"title": "Classic Arcade Game",
-		"dates": "TBA",
-		"description": "N/A",
+		"dates": "July 8, 2015",
+		"description": "I took advantage JavaScript's object-oriented features and the HTML5 Canvas API to create a clone of the classic arcade game Frogger.",
 		"images": []
 	},
 	{
