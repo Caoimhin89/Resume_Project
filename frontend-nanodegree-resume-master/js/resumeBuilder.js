@@ -28,7 +28,7 @@ var work = {
 		"title": "Ads Quality Rater (Russian Language)",
 		"location": "Orlando, Florida",
 		"dates": "2014 - 2015",
-		"description": "As an Ads Quality Rater, I reviewed Russian and English language web content according to various criteria. Primarily, I reviewed adverts that appear at the top of Google search results pages and compared them with the webpages to which they link in order to confirm the honesty of the advertiser as well as ensure the security of users' computers when visiting the landing pages. I also checked the relevance of the advert and landing page to the user's search query. Additionally, I was sometimes tasked with classifying various webpages by their content and interpretting the user's likely intent in navigating to a given webpage."
+		"description": "As an Ads Quality Rater, I contributed my linguistic talents to a Google Search Engine Optimization (SEO) project for which I provided quality control services for Russian & English language web content and evaluated the accuracy of web ads & reported on the effectiveness of site layouts and information. I also made assessments regarding the attractiveness of ads in the Russian market and provided feedback for the improvement of search results."
 	}
 	]
 };
