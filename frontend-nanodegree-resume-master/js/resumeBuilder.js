@@ -10,7 +10,7 @@ var bio = {
 		"location": "<a href='#'>Moscow, Russia</a>"
 	},
 	"welcomeMessage": "",
-	"skills": ["Fluent Russian", "HTML5 / CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX", "Translation & Localization", "Economics", "ESL Teaching", "Writing & Editing"],
+	"skills": ["Fluent Russian", "HTML5 / CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX", "Translation & Localization", "ESL Teaching", "Writing & Editing"],
 	"bioPic": "images/me.png"
 };
 
