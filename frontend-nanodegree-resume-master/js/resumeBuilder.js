@@ -44,7 +44,7 @@ var projects = {
 	{
 		"title": "Curriculum Vitae",
 		"dates": "June 21, 2015",
-		"description": "For this project I used JavaScript to populate a pre-made HTML resume template with my own data. While working on this project I learned how to write properly formatted JSON to interchange data while increasing my familiarity with jQuery, which I used to manipulate DOM elements according to my own design preferences. I also learned proper JavaScript syntax and how to simplify my code by means of encapsulation.",
+		"description": "For this project I used JavaScript to populate a pre-made HTML resume template with my own data. While working on this project I learned how to write properly formatted JSON for interchanging data while increasing my familiarity with jQuery, which I used to manipulate DOM elements according to my own design preferences. I also learned proper JavaScript syntax and how to simplify my code by means of encapsulation.",
 		"images": []
 	},
 	{
