@@ -28,7 +28,7 @@ var work = {
 		"title": "Ads Quality Rater (Russian Language)",
 		"location": "Orlando, Florida",
 		"dates": "2014 - 2015",
-		"description": "As an Ads Quality Rater, I contributed my linguistic talents to a Google Search Engine Optimization (SEO) project for which I provided quality control services for Russian & English language web content. I evaluated the accuracy of web advertisements and reported on the effectiveness of site layouts and information. I also made assessments regarding the attractiveness of ads in the Russian market and provided feedback for the improvement of search results."
+		"description": "As an Ads Quality Rater, I contributed my linguistic talents to a Google Search Engine Optimization (SEO) project for which I provided quality control services for Russian and English language web content. I evaluated the accuracy of web advertisements and reported on the effectiveness of site layouts and information. I also made assessments regarding the attractiveness of ads in the Russian market and provided feedback for the improvement of search results."
 	}
 	]
 };
