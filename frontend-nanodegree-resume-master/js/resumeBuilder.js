@@ -9,10 +9,7 @@ var bio = {
 		"linkedIn": "<a href='https://www.linkedin.com/in/kevinglick89'>View Profile</a>",
 		"location": "<a href='#'>Moscow, Russia</a>"
 	},
-	"welcomeMessage": "When I tackle a new project, I commit myself fully to seeing it through to successful completion. When it comes time to learn a new skill or acquire knowledge about a topic with which I am unfamiliar, I don't just learn the bare minimum to get by, I continue to study or practice until I have fully mastered it.
-When I decided to learn Russian, I didn't just rely on classroom instruction. I immersed myself in the language in every way I could. I took multiple, prolonged trips to Russia where I have lived, worked, studied, and traveled in different cities. I read books which were too advanced for me and meticulously translated their passages until I could read them without the need to rely on a dictionary. I watched films and documentaries, listened to music, subscribed to podcasts and used every resource at my disposal. And my efforts have paid off, as I have passed several proficiency exams demonstrating an advanced level of fluency (with a rating of "Superior" according to the standards of the American Council for the Teaching of Foreign Languages).
-Having had the opportunity to implement my linguistic skills as a contributor to a Google search engine optimization project while an employee of ZeroChaos, I realized the value a linguistic background can bring to web development. So, with a keen interest in information systems and a talent for learning new languages, I decided to expand on that background by tackling the programming languages HTML/CSS and JavaScript by a combination of self-study and enrolling in Udacity’s Front-End Web Development course.
-As my portfolio of completed projects will attest, I have put the same dedicated effort into mastering programming as I have in mastering Russian and with similar success. I am now looking forward to putting my newly acquired skills to the test by launching into a career in web development.",
+	"welcomeMessage": "",
 	"skills": ["Fluent Russian", "HTML5 / CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX", "Translation & Localization", "Economics", "ESL Teaching", "Writing & Editing"],
 	"bioPic": "images/me.png"
 };
