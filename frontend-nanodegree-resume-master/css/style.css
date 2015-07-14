@@ -128,10 +128,6 @@ a {
   padding: 10px;
 }
 
-#skills {
-  flex-direction: column;
-}
-
 .center-content {
   padding-top: 2.5%;
   padding-left: 5%;
