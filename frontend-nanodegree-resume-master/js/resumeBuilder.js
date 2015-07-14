@@ -38,19 +38,19 @@ var projects = {
 	{
 		"title": "Project Portfolio",
 		"dates": "June 7, 2015",
-		"description": "I created a responsive project portfolio, which can be cleanly rendered on a variety of devices with different screen sizes by utilizing the grid system of page organization, the bootstrap CSS library, media queries, some custom CSS to fill in the missing pieces, and a little bit of help from jQuery.",
+		"description": "For this project I used HTML5 & CSS3 to build a responsive resume portfolio for displaying my future projects. In doing so, I utilized the Bootstrap CSS framework to assist in organizing the DOM by the grid system and implemented media queries and other CSS techniques to ensure that all page elements would be adequately responsive. In the end, I successfully created a fully responsive webpage, which suitably accommodates the screen resolutions of different devices.",
 		"images": []
 	},
 	{
 		"title": "Curriculum Vitae",
 		"dates": "June 21, 2015",
-		"description": "For this project I used JavaScript to populate a pre-made HTML resume template with my own data.",
+		"description": "For this project I used JavaScript to populate a pre-made HTML resume template with my own data. While working on this project I learned how to write properly formatted JSON to interchange data while increasing my familiarity with jQuery, which I used to manipulate DOM elements according to my own design preferences. I also learned proper JavaScript syntax and how to simplify my code by means of encapsulation.",
 		"images": []
 	},
 	{
 		"title": "Classic Arcade Game",
 		"dates": "July 8, 2015",
-		"description": "I took advantage JavaScript's object-oriented features and the HTML5 Canvas API to create a clone of the classic arcade game Frogger.",
+		"description": "For this project I used JavaScript to develop my own arcade game modeled on the classic 'Frogger'. I utilized HTML5 Canvas API to animate my game and optimized for efficiency and brevity of code by making use of object inheritance. I also explored many of JavaScript's object-oriented features and exploited them to make for a compelling and interactive user experience.",
 		"images": []
 	},
 	{
