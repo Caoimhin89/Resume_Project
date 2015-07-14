@@ -10,8 +10,7 @@ var bio = {
 		"location": "<a href='#'>Moscow, Russia</a>"
 	},
 	"welcomeMessage": "",
-	"skills1": ["HTML5", "CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX"],
-	"skills2": ["Fluent Russian", "Translation & Localization", "ESL Teaching", "Writing & Editing"],
+	"skills": ["Fluent Russian", "HTML5 / CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX", "Translation & Localization", "Economics", "ESL Teaching", "Writing & Editing"],
 	"bioPic": "images/me.png"
 };
 
@@ -123,17 +122,11 @@ bio.display = function() {
 	var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedPic);
 
-	if (bio.skills1.length > 0) {
+	if (bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
-		for (var i = 0; i < bio.skills1.length; i++) {
-			var formattedSkill = HTMLskills.replace("%data%", bio.skills1[i]);
-			$("#skills-C1").append(formattedSkill);
-	}
-	if (bio.skills2.length > 0) {
-		$("#header").append(HTMLskillsStart);
-		for (var i = 0; i < bio.skills2.length; i++) {
-			var formattedSkill = HTMLskills.replace("%data%", bio.skills2[i]);
-			$("#skills-C2").append(formattedSkill);
+		for (var i = 0; i < bio.skills.length; i++) {
+			var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
+			$("#skills").append(formattedSkill);
 	}
 }
 	var formattedskypePhone = HTMLskypePhone.replace("%data%", bio.contacts.skypePhone);
