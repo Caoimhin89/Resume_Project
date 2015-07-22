@@ -55,8 +55,8 @@ var projects = {
 	},
 	{
 		"title": "Website Optimization",
-		"dates": "TBA",
-		"description": "N/A",
+		"dates": "July 21, 2015",
+		"description": "While completing this project I learned about how the browser retrieves HTML, CSS, & JavaScript, and then processes them into rendered pixels by means of the Critical Rendering Path (CRP). I came to understand the importance of maintaining a page speed of at least 60 frames per second on all moving elements on the page and successfully utilized various methods to achieve this goal. I used my knowledge of the critical rendering path in order to manipulate segments of code to ensure that the browser was making as few requests for materials as possible and that it was not repeating tasks unnecessarily. Finally, I implemented such measures as compressing and minifying code, in-lining essential CSS & JavaScript directly into the HTML, async-ing non-essential JavaScript files, and using media queries on non-essential segments of CSS to ensure that they would not block rendering.",
 		"images": []
 	},
 	{
