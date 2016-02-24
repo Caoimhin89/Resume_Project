@@ -3,14 +3,19 @@ var bio = {
 	"role": "Front-End Web Developer",
 	"contacts": {
 		"skypePhone": "<a href='tel:3304604389'>330-460-4389</a>",
-		"mobile": "<a href='tel:89197737781'>+7(919)773-77-81</a>",
+		"mobile": "<a href='tel:2168709302'>(216)-870-9302</a>",
 		"email": "<a href='mailto:kevin.n.glick@gmail.com'>kevin.n.glick@gmail.com</a>",
 		"github": "<a href='https://github.com/Caoimhin89'>Caoimhin89</a>",
-		"linkedIn": "<a href='https://www.linkedin.com/in/kevinglick89'>View Profile</a>",
-		"location": "<a href='#'>Moscow, Russia</a>"
+		"linkedIn": "<a href='https://www.linkedin.com/in/kevinglick89'>View LinkedIn Profile</a>",
+		"location": "<a href='#'>Cleveland, Ohio</a>"
 	},
-	"welcomeMessage": "",
-	"skills": ["Fluent Russian", "HTML5 / CSS3", "JavaScript", "jQuery", "KnockoutJS", "JasmineJS", "JSON", "AJAX", "Translation & Localization"],
+	"welcomeMessage": "I am an aspiring Junior Java Applications Developer with a background in Russian language studies and teaching "
+	+ "English as a foreign language.  As such, I have a strong affinity for learning new languages and mastering logical systems. I have "
+	+ "a year of experience as a Russian-language Ads Quality Rater on a Google SEO project and in addition to attending a 14-week Java programming "
+	+ "bootcamp, I have been studying Java and JavaScript programming and related frameworks independently and have designed and implemented several "
+	+ "working web applications.",
+	"skills": ["Fluent Russian", "Java", "HTML5 / CSS3", "JavaScript", "JSON", "AJAX", "Translation & Localization"],
+	"frameworks": ["JUnit", "Java Swing", "HTML5 Canvas", "Bootstrap CSS", "jQuery", "JasmineJS", "KnockoutJS"],
 	"bioPic": "images/me.png"
 };
 
@@ -20,15 +25,22 @@ var work = {
 		"employer": "Denis' School",
 		"title": "English Teacher",
 		"location": "Moscow, Russia",
-		"dates": "October 2014 - Present",
-		"description": "As an English teacher at Denis' School, I taught classes to a variety of corporate clients right in their offices. I had a mixture of individual students as well as small and medium-sized groups. I prepared daily lesson plans, organized teaching materials, kept careful academic and attendence records, designed and administered tests, and gave regular feedback to the students. The lessons were customized to be relevant and engaging for the particular needs of each company. The companies for whom I taught classes includes Agilent Technologies, Syngenta, Intel, LukOil, Yandex, and Johnson&Johnson."
+		"dates": "October 2014 - August 2015",
+		"description": "As an English teacher at Denis' School, I taught classes to a variety of corporate clients right in their offices. "
+		+ "I had a mixture of individual students as well as small and medium-sized groups. I prepared daily lesson plans, organized teaching "
+		+ "materials, kept careful academic and attendence records, designed and administered tests, and gave regular feedback to the students. "
+		+ "The lessons were customized to be relevant and engaging for the particular needs of each company. The companies for whom I taught classes "
+		+ "includes Agilent Technologies, Syngenta, Intel, LukOil, Yandex, and Johnson&Johnson."
 	},
 	{
-		"employer": "ZeroChaos",
+		"employer": "ZeroChaos, LLC",
 		"title": "Ads Quality Rater (Russian Language)",
 		"location": "Orlando, Florida",
-		"dates": "2014 - 2015",
-		"description": "As an Ads Quality Rater, I contributed my linguistic talents to a Google Search Engine Optimization (SEO) project for which I provided quality control services for Russian and English language web content. I evaluated the accuracy of web advertisements and reported on the effectiveness of site layouts and information. I also made assessments regarding the attractiveness of ads in the Russian market and provided feedback for the improvement of search results."
+		"dates": "Jan 2014 - Jan 2015",
+		"description": "As an Ads Quality Rater, I contributed my linguistic talents to a Google Search Engine Optimization (SEO) project for which I "
+		+ "provided quality control services for Russian and English language web content. I evaluated the accuracy of web advertisements and reported on "
+		+ "the effectiveness of site layouts and information. I also made assessments regarding the attractiveness of ads in the Russian market and provided "
+		+ "feedback for the improvement of search results."
 	}
 	]
 };
@@ -71,38 +83,49 @@ var projects = {
 var education = {
 	"schools": [
 	  {
+	  	"name": "Tech Elevator Programming Bootcamp",
+	  	"degree": "Certificate",
+	  	"dates": "Jan 2016 - Apr 2016",
+	  	"location": "Cleveland, Ohio",
+	  	"major": "Java Application Developer",
+	  	"url": "<a href='http://www.techelevator.com'>Click here for more info.</a>"
+	  },
+	  {
 	  	"name": "Ohio State University",
 	  	"degree": "B.A.",
-	  	"dates": "2010 - 2013",
+	  	"dates": "Sept 2010 - Dec 2013",
 	  	"location": "Columbus, Ohio",
-	  	"major": "Russian Studies"
+	  	"major": "Russian Studies",
+	  	"url": "<a href='https://slavic.osu.edu'>Click here for more info.</a>"
 	  },
 	  {
 	  	"name": "Bashkir State University (Башкирский государственный университет)",
 	  	"degree": "Certificate for Successfully Passing the Test of Russian as a Foreign Language at the Second Certification Level (TORFL-II)",
-	  	"dates": "2012 - 2013",
+	  	"dates": "Sept 2012 - Jun 2013",
 	  	"location": "Ufa, Russia",
-	  	"major": "Russian as a foreign language"
+	  	"major": "Russian as a Foreign Language",
+	  	"url": "<a href='http://www.bashedu.ru/en'>Click here for more info.</a>"
 	  },
 	  {
 	  	"name": "Russian State University for the Humanities (Российский государственный гуманитарный университет)",
 	  	"degree": "Certificate of Successful Completion",
-	  	"dates": "2011",
+	  	"dates": "Jun 2011 - Aug 2011",
 	  	"location": "Moscow, Russia",
-	  	"major": "Russian Language & Cultural Immersion"
+	  	"major": "Russian Language & Cultural Immersion",
+	  	"url": "<a href='http://rggu.com'>Click here for more info.</a>"
 	  }
 	],
 	"onlineClasses": [
 	  {
 	  	"title": "The Mises Curriculum",
 	  	"school": "The Ludwig von Mises Academy",
-	  	"dates": "2015 - Present",
+	  	"dates": "Jan 2015 - Present",
 	  	"url": "<a href='http://academy.mises.org/courses/curriculum/'>Click here for more info.</a>"
 	  },
 	  {
 	  	"title": "Front-End Web Development Nanodegree",
 	  	"school": "Udacity",
-	  	"dates": "2015",
+	  	"dates": "Apr 2015 - Apr 2016",
 	  	"url": "<a href='http://www.udacity.com'>Click here for more info.</a>"
 	  }
 	]
@@ -110,7 +133,7 @@ var education = {
 
 bio.display = function() {
 	var name = "Kevin N. Glick";
-	var myRole = "Front-End Web Developer";
+	var myRole = "Java Developer";
 	var formattedName = HTMLheaderName.replace("%data%", name);
 	var formattedRole = HTMLheaderRole.replace("%data%", myRole);
 	$("#header").prepend(formattedRole);
@@ -127,8 +150,16 @@ bio.display = function() {
 		for (var i = 0; i < bio.skills.length; i++) {
 			var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
 			$("#skills").append(formattedSkill);
+		}
 	}
-}
+	if(bio.frameworks.length > 0) {
+		$("#header").append(HTMLframeworkStart);
+		for(var i = 0; i < bio.frameworks.length; i++) {
+			var formattedFrameworks = HTMLframeworks.replace("%data%", bio.frameworks[i]);
+			$("#frameworks").append(formattedFrameworks);
+		}
+	}
+
 	var formattedskypePhone = HTMLskypePhone.replace("%data%", bio.contacts.skypePhone);
 	$("#topContacts").append(formattedskypePhone);
 	$("#footerContacts").append(formattedskypePhone);
